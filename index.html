@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tartaruga App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+            color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: #141414;
+            padding: 40px;
+            border-radius: 16px;
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 0 40px rgba(0,0,0,.6);
+        }
+
+        .logo {
+            width: 96px;
+            height: 96px;
+            margin: 0 auto 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 0.95rem;
+            color: #bdbdbd;
+            margin-bottom: 30px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            width: 100%;
+            padding: 14px;
+            border-radius: 10px;
+            background: #7c3aed;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: transform .15s ease, box-shadow .15s ease;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(124,58,237,.4);
+        }
+
+        .version {
+            margin-top: 16px;
+            font-size: 0.8rem;
+            color: #777;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.75rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Troca pelo seu favicon se quiser -->
+        <img src="favicon.ico" alt="Tartaruga App" class="logo">
+
+        <h1>Tartaruga App 🐢</h1>
+        <p>
+            Calculadora, gerador e utilitários em um app simples,
+            rápido e direto ao ponto.
+        </p>
+
+        <!-- AQUI VOCÊ COLOCA O LINK DO .EXE -->
+        <a href="tartaruga_app.exe" class="download-btn" download>
+            ⬇️ Baixar para Windows
+        </a>
+
+        <div class="version">
+            Versão 1.0 • Windows 64-bit
+        </div>
+
+        <footer>
+            © 2025 Tartaruga App
+        </footer>
+    </div>
+
+</body>
+</html>
